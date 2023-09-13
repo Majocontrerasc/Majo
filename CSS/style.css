@@ -1,0 +1,29 @@
+/* importacion de tipo grafia*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+/*selectro por etiqueta*/
+span {
+    color: orangered;
+}
+/*selectro por id */
+#option_one,#option_three{
+    font-weight: 900;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+/*selectro por clase */
+.options_group.other_option{
+    font-size: 20px;
+    background-color: rgb(240, 240, 240);
+}
+/*selectro por atributo*/
+[disabled]{
+    background-color: red;
+}

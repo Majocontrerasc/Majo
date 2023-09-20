@@ -13,6 +13,70 @@ span {
     color: orangered;
 }
 /*selectro por id */
+#title_box {
+    color: #0000ff;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 10px 20px 15px 25px;
+    border: 3px solid #000080;
+    border-style: 10px;
+    padding-bottom: 50px;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    box-shadow: 0px 0px 10px 2px #0000ff;
+    -webkit-box-shadow: -15px 13px 29px 23px rgba(0,0,0,0.51);
+    -moz-box-shadow: -15px 13px 29px 23px rgba(0,0,0,0.51);
+    box-shadow: -15px 13px 29px 23px rgba(0,0,0,0.51);
+}
+#title_father{
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg)
+    background-posicion 
+}
+#title_model{
+    background-color: #ffa500;
+    width: 50px;
+    height: 50px;
+    /* Aplicacion de media queris */
+    @media (min-width: 800px) and (max-width: 1200px){
+        body{
+            background-color: #00ffff;
+        }
+
+    }
+
+
+}
+@media (max-width: 799px){
+    body{
+        background-image: url(https://s2.ppllstatics.com/elcorreo/www/multimedia/202002/14/media/cortadas/cieloazul1-k1zG-U100155473657HzH-1968x1216@RC.jpg);
+        background-position: 799opx;
+        background-size: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #option_one,#option_three{
     font-weight: 900;
     background-color: aquamarine;
